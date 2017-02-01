@@ -1,0 +1,6 @@
+export const DATA_FROM_DATABASE = 'TBody/DATA_FROM_DATABASE';
+export const NOT_SCROLLING = 'TBody/NOT_SCROLLING';
+export const INFINITE_SCROLL = 'TBody/INFINITE_SCROLL';
+export const ADD_ONE_NEW_ROW = 'TBody/ADD_ONE_NEW_ROW';
+export const ADD_PROJECT_IF_EMPTY = 'TBody/ADD_PROJECT_IF_EMPTY';
+export const ADD_DATE_IF_EMPTY = 'TBody/ADD_DATE_IF_EMPTY';

@@ -1,0 +1,201 @@
+body {
+  overflow: hidden;
+  background: url(furley_bg.png) repeat !important;
+}
+
+body {
+  background: url(furley_bg.png) repeat !important;
+}
+
+.react-grid-HeaderCell {
+  background: red !important;
+}
+
+.react-grid-Cell {
+    background: url(furley_bg.png)!important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+
+select, .input-hours, textarea {
+  background-color: inherit;
+}
+
+thead {
+  /*background-color: #D3E8E1;*/
+  background-color: #dce2d9;
+  cursor: pointer;
+}
+
+
+td {
+  border-color: #d9edf7 !important;
+}
+
+thead, tbody, tr, td, th { display: block; }
+
+tr:after {
+  content: ' ';
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+tbody tr td{
+  min-height: 40px;
+  padding-top: 10px !important;
+}
+
+thead th  {
+  height: 39px;
+}
+
+tbody {
+  height: 96vh;
+  overflow-y: auto;
+  margin-bottom: -20px
+}
+
+tbody td {
+  width: 25%;
+  float: left;
+}
+
+.my-textarea {
+  resize: none;
+  border: none;
+  border-color: green;
+  margin-bottom: -5px;
+  margin-top: -2px;
+  width: 100%;
+  outline: none;
+  padding: 0px
+  /*border: none;
+  overflow: auto;
+  box-shadow: none;*/
+}
+
+span {
+  /*word-wrap: break-word;*/
+  word-break: break-all;
+}
+
+.project, .date, .tasks, .hours {
+  float: left;
+}
+
+.project, tbody td:first-child {
+  width: 15%;
+}
+
+.date, tbody td:nth-child(2) {
+  width: 15%;
+}
+
+.tasks, tbody td:nth-child(3) {
+  width: 52%;
+}
+
+.hours, tbody td:last-child {
+  width: 18%;
+}
+
+.tr-pointer td input {
+  margin-bottom: -2px;
+  margin-top: -2px;
+  padding: 0px;
+}
+
+tbody tr td:last-child {
+  padding-left: 30px
+}
+
+.cont {
+  padding: 0px !important;
+}
+
+.tr-pointer {
+  cursor: pointer;
+}
+
+.datepicker-input {
+  width: 80px !important;
+  margin-right: 0px;
+}
+
+.tasks {
+  padding-left: 0px;
+  margin-left: -8px;
+}
+
+.hours {
+  padding-left: 28px;
+}
+
+.div-text {
+  height: 100%
+}
+
+.td-edit {
+  outline: none;
+  box-shadow: none;
+}
+
+.input-hours {
+  width: 100%;
+  outline: none;
+  border: none;
+}
+
+.loadingData {
+  font-size: 16px;
+  margin-left:  45%;
+}
+
+.my-table {
+  margin-bottom: 0px !important
+}
+
+.my-datepicker {
+  height: 0px;
+}
+
+.my-datepicker div{
+  top: -13px;
+  font-size: 14px !important;
+  width: 100% !important;
+  height: 20px !important;
+}
+
+.my-datepicker div div hr {
+  display: none;
+  bottom: 0px!important
+}
+
+.my-datepicker div div hr {
+  display: none;
+}
+
+.my-datepicker div div {
+  bottom: 0px !important
+}
+
+.calendat-btn {
+
+  height: 27px;
+  padding: 4px;
+  padding-top: 0px;
+  background: inherit;
+  border: none;
+  outline: none !important;
+}
+
+.my-div {
+  margin-bottom: -6px;
+}
